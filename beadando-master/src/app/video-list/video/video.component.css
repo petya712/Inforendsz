@@ -1,0 +1,12 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p.small {
+    font-size: small;
+    font-weight: bold;
+  }
+  p.bold{
+      font-weight: bold;
+  }
