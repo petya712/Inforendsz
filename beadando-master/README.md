@@ -1,4 +1,4 @@
-## Library assignment
+## Video Store assignment
 
 ## To install:
 `npm install`
