@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-8" *ngFor="let video of videos">
+                <span *ngIf="video.renter"><app-rent-item [video]="video"></app-rent-item> 
+                  <button class="btn btn-sm btn-success" >Add</button>
+                </span>
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="text" class="form-control" id="date" formControlName="date">
+            </div>
+        </div>
+    </div>
+</div>
+

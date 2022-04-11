@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-md-9" style="border: 5px;">
+        <p1 *ngIf="video.renter">Renting user: {{ video.renter.firstName }} {{ video.renter.lastName }}<span *ngIf="late">*</span></p1>
+        <p>Personal ID: {{ video.renter.personal_id }}</p>
+        <p>Phone number: {{ video.renter.phone }}</p>
+        <p>Address: {{ video.renter.address }}</p>
+        <p>User status: {{ video.renter.status }}</p>
+        <p>Video: {{ video.title }}</p>
+        
+
+        <hr>
+    </div>
+</div>
