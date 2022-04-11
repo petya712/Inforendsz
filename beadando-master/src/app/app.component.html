@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="color:red; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" href="#">Video Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" style="color:whitesmoke; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" routerLink="/">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color:whitesmoke; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" routerLink="/user-list">Users</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color:whitesmoke; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" routerLink="/video-form">New Video</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color:whitesmoke; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" routerLink="/user-form">New User</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color:whitesmoke; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" routerLink="/category-form">Categories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color:whitesmoke; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" routerLink="/rent-form">Renting</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>
