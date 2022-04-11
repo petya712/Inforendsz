@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-md-9" style="border: 5px;">
+        <h5>
+            {{ user.id }}.
+            <b> {{ user.firstName }} {{ user.lastName }}</b>
+            <p>Personal ID: {{ user.personal_id }} </p>
+        </h5>
+        <p>Tel: {{ user.phone }}</p>
+        <p>Address: {{ user.address }}</p>
+        <p>Status: {{ user.status }}</p>
+        <button class="btn btn-sm btn-success" (click)="navigateToUserForm(user.id)">Edit</button>
+    </div>
+</div>

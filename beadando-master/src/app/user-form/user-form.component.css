@@ -1,0 +1,6 @@
+label{
+    font-weight: bold;
+}
+input[type=checkbox] {
+    width: 100px;
+}
