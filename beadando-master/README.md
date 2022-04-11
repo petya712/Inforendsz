@@ -1,1 +1,8 @@
-2022 Infosys beadandom
+## Library assignment
+
+## To install:
+`npm install`
+
+## To run:
+- frontend: `npm run start`
+- backend: `npm run start-backend`
